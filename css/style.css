@@ -92,9 +92,9 @@ body{
     margin: 0 10px;
 }
 
-/* .main_ticket {
+.main_ticket {
     display: none;
-} */
+}
 
 .main_ticket h2 {
     color: white;
