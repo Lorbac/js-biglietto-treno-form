@@ -82,7 +82,6 @@ body{
     box-shadow: 0.5px 3px #00000025;
 }
 
-
 .button_row button {
     padding: 5px 10px;
     border-radius: 5px;
@@ -93,14 +92,51 @@ body{
     margin: 0 10px;
 }
 
+/* .main_ticket {
+    display: none;
+} */
+
 .main_ticket h2 {
     color: white;
     font-size: 25px;
     padding-top: 20px;
 }
 
+.title_ticket h3 {
+    font-size: 16px;
+}
+
 .ticket_box {
-    width: 70%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.data_passenger {
+    display: flex;
+    border: 1px solid black;
+    width: 95%;
+    border-right: none;
+}
+
+.data_passenger div {
+    padding: 20px;
+    text-align: center;
+}
+
+.data_passenger h4 {
+    padding-bottom: 50px;
+}
+
+.data_passenger div:nth-child(1) {
+    background-color: lightgray;
+}
+
+div:nth-child(1) > h4 {
+    padding-bottom: 10px;
 }
 
 /* fine main  */
