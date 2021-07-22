@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.bg-color-red {
+    background-color: #B91450;
+}
+
+.bg-color-white {
+    background-color: white;
+}
+
+/* fine common */
+
+/* header  */
+
+.title {
+    height: 10vh;
+    line-height: 10vh;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+/* fine header  */
+
+/* main  */
+
+.container {
+    text-align: center;
+    height: 90vh;
+}
+
+.box_dati {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: -0.5px -3px #00000025;
+}
+
+.input_1, .input_2, .input_3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.box_dati label {
+    margin: 15px 0;
+    color: #B91450;
+}
+
+.box_dati input, select {
+    height: 25px;
+    border-color: #B91450;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button_row {
+    width: 80%;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    box-shadow: 0.5px 3px #00000025;
+}
+
+
+.button_row button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: #B91450;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.main_ticket h2 {
+    color: white;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.ticket_box {
+    width: 70%;
+}
+
+/* fine main  */
+

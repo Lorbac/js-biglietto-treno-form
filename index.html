@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="title w-100 bg-color-red">
+            <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container w-100 bg-color-red ">
+
+            <div class="box_dati bg-color-white">
+    
+                <!-- Input nome -->
+                <div class="input_1">
+                    <label for="nome">Nome Cognome:</label>
+                    <input id="nome" type="text" name="nome" placeholder="Inserisci il tuo nome">
+                </div>
+                <!-- Fine Input nome  -->
+    
+                <!-- Input chilometri -->
+                <div class="input_2">
+                    <label for="km">Km da percorrere:</label>
+                    <input id="km" type="number" name="km" placeholder="Inserisci i km">
+                </div>
+                <!-- Fine Input chilometri  -->
+    
+                <!-- select fascia età -->
+                <div class="input_3">
+                    <label for="fascia_eta">Fascia d'età</label>
+                    <select name="fascia_eta" id="fascia_eta">
+                        <option value="minorenne">Minorenne</option>
+                        <option value="maggiorenne">Maggiorenne</option>
+                        <option value="over65">Over 65</option>
+                    </select>
+                </div>
+                <!-- Fine select fascia età  -->
+                
+            </div>
+            
+            <!-- Bottoni -->
+            <div class="button_row bg-color-white">
+                <button id="calcola_prezzo" name="calcola_prezzo">Genera</button>
+                <button id="annulla" name="annulla">Annulla</button>    
+            </div>
+            <!-- Fine bottoni -->
+
+            <div class="main_ticket w-100">
+
+                <h2>IL TUO BIGLIETTO</h2>
+
+                <div class="ticket_box bg-color-white">
+
+                </div>
+
+            </div>
+            
+        </div>
+
+
+    </main>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
